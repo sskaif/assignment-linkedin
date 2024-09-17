@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    background-color: #fff;
+
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    width: 40%;
+    /* background-color: green;1 */
+    padding-left: 2%;
+    gap: 1rem;
+}
+
+.nav2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.nav2 i {
+    color: rgba(76, 75, 75, 0.799);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 191, 191);
+    padding-top: 1rem;
+    display: flex;
+
+}
+
+.left {
+    /* background-color: red; */
+    width: 20%;
+    height: 100%;
+    padding: 0.5rem;
+    overflow: hidden;
+    
+
+
+}
+
+.card{
+    height: 33%;
+    width: 100%;
+    /* hyphenate-limit-chars: 35%; */
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+.card img{
+    height: 30%;
+    width: 100%;
+}
+#pr img{
+    position: relative;
+    top: -3rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+span{
+    /* padding: 1rem; */
+    display: flex;
+    gap: 1rem;
+}
+.card span img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-bottom: 0.4rem;
+    
+}
+#a{
+position: relative;
+top: -2rem;
+}
+span {
+    position: relative;
+    top: -1.5rem;
+    padding-left: 1rem;
+}
+.view{
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+}
+.view h6{
+    color: rgb(0, 140, 255);
+    font-size: 700;
+    font-weight: 1000;
+}
+.card2{
+    margin-top: 1rem;
+height: 33%;
+width: 100%;
+background-color: #fff;
+border-radius: 5px;
+padding: 1rem;
+
+}
+
+.card2 img{
+    height: 35%;
+    width: 100%;
+    object-fit:fill
+    
+}
+
+.noti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}
+#noti2 h5{
+    color:  rgb(0, 140, 255);
+}
+#noti h6{
+    color: rgb(0, 140, 255);
+}
+.save{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.center{
+    width: 50%;
+    height: 79%;
+    /* background-color: red; */
+    margin-left: 1.5rem;
+    
+
+}
+.center-a{
+    background-color: white;
+    border-radius: 5px;
+}
+.center1{
+    margin-top: 0.6rem;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.center1 input{
+width: 100%;
+padding: 0.5rem;
+border-radius: 10px;
+}
+.center1 img{
+    
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.center2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center-b{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.center-b video{
+    margin: 1rem;
+    height: 18rem;
+}
+
+.center-b p1{
+    margin-left: 0.5rem;
+    /* padding: 5rem; */
+    
+}
+
+.center-b1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.center-b11 img{
+height: 2rem;
+width: 2rem;
+margin-left: 1rem;
+ 
+}
+.center-b12{
+    /* background-color: gray; */
+    padding: 1rem;
+    
+} 
+.center-b2{
+    display: flex;
+    align-items: center;
+    
+}
+.center-b2 span{
+    margin-left: 15rem;
+    margin-top: 3rem;
+    color:  rgb(0, 140, 255);
+    font-weight: 800;
+}
+.center-b21 img{
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.center-b22 h5{
+    color: rgb(0, 140, 255);
+}
+.right{
+    width: 20%;
+    height: 97%;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.heading i{
+    font-weight: 800;
+    font-size: large;
+}
+.containt{
+    padding: 1rem;
+    text-align: start;
+}
+.containt p {
+  padding-bottom: 1rem;
+}
+.page2{
+    background-color:  rgb(199, 191, 191);
+    height: 100%;
+    width: 100%;
+}
